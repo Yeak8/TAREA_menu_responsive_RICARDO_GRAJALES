@@ -1,0 +1,178 @@
+@media (max-width: 768px) {
+    .enlaces-nav {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo_menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+
+    .logo_menu img {
+        max-width: 110%;
+        height: auto;
+        display: block;
+        width: 150px;
+    }
+    .logo img {
+        height: 50px;
+    }
+    .logo-enlaces {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .logo-enlacitos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .menu-movil {
+        display: flex;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .menu-movil i {
+        font-size: 1.5rem;
+        color: #6cb500;
+    }
+
+    .texto-heroe {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        color: white;
+    }
+
+    .menu-activo .enlaces-nav {
+        display: flex;
+        flex-direction: column;
+        background-color: #f3f3f3;
+        padding: 20px;
+        width: 100%;
+        align-items: flex-start;
+    }
+    
+    .enlaces-nav li {
+        
+        border-bottom: 1px dotted #000;
+        margin: 0;
+    }
+
+    .heroe h1 {
+        font-size: 1.8rem;
+        font-weight: 100;
+    }
+
+    .heroe img {
+        width: 100%;
+        height: auto;
+    }
+
+    .servicios {
+        padding: 20px;
+    }
+
+    .tarjetas-servicios {
+        flex-direction: column;
+    }
+
+    .tarjeta-servicio {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tarjeta-servicio img {
+        height: 60px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .logo-pie img {
+        align-items: start;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heroe h1 {
+        font-size: 1.5rem;
+    }
+
+    .tarjeta-servicio img {
+        height: 50px;
+    }
+
+    .logo-pie img {
+        height: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .heroe h1 {
+        font-size: 2rem;
+    }
+
+    .tarjetas-servicios {
+        flex-direction: column;
+    }
+
+    .tarjeta-servicio {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .enlaces-nav {
+        display: none;
+    }
+
+    .enlaces-nav a {
+        display: block;
+        padding: 15px 0;
+        text-decoration: none;
+        color: black;
+        width: 100%;
+    }
+
+    .menu-activo .enlaces-nav {
+        display: flex;
+    }
+
+    .bimbo{
+        color: black;
+    }
+
+    .menu-movil {
+        display: block;
+    }
+
+    .logo-enlacitos {
+        justify-content: space-between;
+    }
+
+    .enlaces-nav li {
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+    .heroe h1 {
+        font-size: 1.5rem;
+    }
+}
